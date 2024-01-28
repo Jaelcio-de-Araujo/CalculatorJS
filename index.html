@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora v1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script src="script.js"></script>
+<body>
+    <div class="calculator">
+        <input type="text" class="display" id="display" readonly>
+        <div class="buttons">
+            <button class="number" onclick="capturaNumero(7)" value="7">7</button>
+            <button class="number" onclick="capturaNumero(8)">8</button>
+            <button class="number" onclick="capturaNumero(9)">9</button>
+            <button class="operator" onclick="capturaOperacacao('/')">/</button>
+            <button class="number" onclick="capturaNumero(4)">4</button>
+            <button class="number" onclick="capturaNumero(5)">5</button>
+            <button class="number" onclick="capturaNumero(6)">6</button>
+            <button class="operator" onclick="capturaOperacacao('*')">*</button>
+            <button class="number" onclick="capturaNumero(1)">1</button>
+            <button class="number" onclick="capturaNumero(2)">2</button>
+            <button class="number" onclick="capturaNumero(3)">3</button>
+            <button class="operator" onclick="capturaOperacacao('-')">-</button>
+            <button class="number"  onclick="capturaNumero(0)">0</button>
+            <button class="operator" onclick="capturaOperacacao('+')">+</button>
+            <button class="equals"onclick="calculaResultado()" >=</button>
+            <button class="cleanner" onclick="limpaDisplay()">C</button>
+        </div>
+    </div>
+</body>
+</html>
