@@ -4,4 +4,4 @@ With a calculator programmed in JS I am marking the beginning of several project
 
 ## Calculator
 
-![Calculator](calc.jpeg)
+![Calculator](calc.png)
